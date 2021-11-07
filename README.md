@@ -1,5 +1,9 @@
-# pimoroni.inky
+# pimoroni.inky.datetime
 A docker image to use with the [Pimoroni Inky pHAT (ePaper/eInk/EPD) – Red/Black/White](https://shop.pimoroni.com/products/inky-phat?variant=12549254217811)
+
+Show the time...
+
+¯\_(ツ)_/¯.
 
 Feel free to use this image for your own project :)
 
