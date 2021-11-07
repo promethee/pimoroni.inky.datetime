@@ -3,7 +3,7 @@ A docker image to use with the [Pimoroni Inky pHAT (ePaper/eInk/EPD) – Red/Bla
 
 Show the time...
 
-¯\_(ツ)_/¯.
+¯\\_(ツ)_/¯.
 
 Feel free to use this image for your own project :)
 
