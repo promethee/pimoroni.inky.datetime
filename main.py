@@ -38,7 +38,13 @@ def draw_credits(text, h):
 def show_time():
   draw.rectangle((0, 0, WIDTH, HEIGHT), fill=WHITE)
   now = datetime.now().astimezone(None)
-  texts = [now.strftime("%b %d"), now.strftime("%H:%M")]
+  small_texts = [now.strftime("%b %d"), now.strftime("%H:%M")]
+  big_texts = [
+    now.strftime("%A"),
+    now.strftime("%b %d"),
+    now.strftime("%H:%M"),
+  ]
+  texts = small_texts if SMALL_DISPLAY else big_texts
   n_texts = len(texts)
   margin = 2 if SMALL_DISPLAY else 8
   index = 0
